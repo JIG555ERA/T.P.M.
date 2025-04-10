@@ -8,10 +8,10 @@ from sklearn.preprocessing import LabelEncoder
 # setting the page configurations
 st.set_page_config(
     page_title="Analyze | T.P.M.",
-    page_icon="./tpm_icon.png"
+    # page_icon="./tpm_icon.png"
 )
 
-st.sidebar.image("company_icon.png", use_column_width=True)
+# st.sidebar.image("company_icon.png", use_column_width=True)
 
 # 1. Page Title and Description
 df = pd.read_csv("./thyroid_dataset.csv")
