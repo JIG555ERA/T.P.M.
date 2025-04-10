@@ -6,11 +6,9 @@ import seaborn as sns
 # setting the page configurations
 st.set_page_config(
     page_title="Home | T.P.M.",
-    page_icon="./tpm_icon.png"
 )
 
 # sidebar for hovering through pages
-st.sidebar.image("company_icon.png", use_column_width=True)  
 
 st.sidebar.text('')
 

@@ -14,10 +14,10 @@ import streamlit.components.v1 as components
 # setting the page configurations
 st.set_page_config(
     page_title="Report | T.P.M.",
-    page_icon="./tpm_icon.png",
+    # page_icon="./tpm_icon.png",
     layout="wide"
 )
-st.sidebar.image("company_icon.png", use_column_width=True)
+# st.sidebar.image("company_icon.png", use_column_width=True)
 
 st.title("📝 Thyroid Health Report")
 st.markdown("This report includes ETL, EDA, predictions, and model evaluation based on your input.")
